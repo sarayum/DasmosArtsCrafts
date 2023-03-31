@@ -1,0 +1,77 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+  }
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.header{
+    z-index:9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/pattern.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 35px 0;
+    height: 200px;
+    width: 100%
+    
+    
+}
+.header #title {
+  display: flex;
+  justify-content:stretch;
+  font-size: 100px;
+  font-weight:bold;
+  color: khaki;
+  text-align:start;
+  width: 1200px;
+  text-indent: 12px;
+  overflow: hidden;
+  text-size-adjust: none;
+ 
+}
+
+#brush-color{
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+#frame-color{
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+#paint-color{
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.brushes P {
+  display: flex;
+  justify-content: start;
+  text-indent: 12px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.img-with-text {
+font-weight: bold; 
+color:blue;
+}
